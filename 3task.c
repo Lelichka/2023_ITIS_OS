@@ -14,7 +14,6 @@ int main(int argc, char *argv[])
 		printf("Error opening file");
 		return 1;
 	}
-	chmod("3task.txt", 0664);
 	char ch = getc(stdin);
 	while(ch != 6)
 	{
